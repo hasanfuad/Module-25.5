@@ -1,0 +1,23 @@
+.countries{
+    border: 1px solid salmon;
+    padding: 10px;
+    margin: 15px;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+#countriesDes img{
+    width: 200px;
+}
+
+.countryName{
+    font-size: 40px;
+    color: goldenrod;
+}
